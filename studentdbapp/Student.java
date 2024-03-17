@@ -26,9 +26,6 @@ public class Student {
 
         setStudentID();
 
-        // System.out.println(firstName +  "  " + lastName + " " + gradeYear + " " + studentID);
-
-
     }
 
     // Generate an ID
@@ -79,7 +76,7 @@ public class Student {
     public String showInfo(){
         return "Name: " + firstName + " " + lastName +
                 "\nGrade Level:  " + gradeYear +
-                "\n Student ID: " + studentID +
+                "\nStudent ID: " + studentID +
                 "\nCourses Enrolled: " + courses +
                 "\nBalance: $" + tuitionBalance;
     }
